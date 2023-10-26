@@ -1,0 +1,130 @@
+
+
+
+h1{
+	color:rgb(121,71,71);
+	font-family:cursive;
+	text-align: center;
+	font-style: italic;
+	display: flex; justify-content: center;
+	line-height: 50px;
+
+	
+}
+h2{
+	color: rgb(121,71,71);
+	font-family: monospace;
+	text-align: center;
+	font-weight: bold;
+	line-height: 50px;
+}
+p{
+	color: rgb(121,71,71);
+	background-color: rgb(236,222,222);
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	line-height: 20px;
+	text-align: center;
+
+
+
+
+	
+}
+body{
+	background-color: rgb(245,238,238);
+}
+nav{
+
+	
+	line-height: 50px;
+	
+}
+footer {
+	text-align: center;
+	color:rgb(121,71,71) ;
+}
+
+@media (min-width:555px) {
+	.media-holder {
+		flex-direction: row;
+	}
+	.image-holder {
+		width: 30%;
+	}
+	.text-holder {
+		width 70%
+	}
+
+	nav{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 50%;
+		
+	}
+}
+@media (max-width: 800px) {
+	.image-holder{
+		width:250px;
+	}
+	.media-holder .text-holder {
+		width: clamp(100% - 250px);
+	}
+
+	nav{
+		width: 25%;
+		background-color: rgb(129,86,77);
+		color: white;
+	}
+	body{
+		background-color: rgb(129,86,77);
+	}
+	h1{
+		color: white;
+		background-color: rgb(129,86,77);
+	}
+	h2{
+		color: white;
+		background-color: rgb(129,86,77);
+	}
+	p{
+		color: white;
+		background-color: rgb(129,86,77);
+	}
+	footer{
+		color:white;
+		background-color: rgb(129,86,77);
+	}
+	
+
+.location-holder {
+  width: 100%;
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  box-sizing: border-box;
+}
+
+.text-holder {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+	
