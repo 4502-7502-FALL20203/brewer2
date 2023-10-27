@@ -25,21 +25,54 @@ p{
 	letter-spacing: 1px;
 	line-height: 20px;
 	text-align: center;
-
-
-
-
 	
 }
 body{
 	background-color: rgb(245,238,238);
 }
-nav{
+nav {
+	background-color: whitesmoke;
+	max-width: 800px;
+	margin: auto;
+	font-size: 1.5em;
+}
 
-	
-	line-height: 50px;
+nav ul {
+	display: flex;
+	align-items: stretch;
+	flex-direction: row;
+	justify-content: space-evenly;
 	
 }
+
+nav ul li {
+	background-color: whitesmoke;
+	flex-flow: row wrap;
+	align-items: stretch;
+	list-style-type: none;
+	padding: 1rem;
+	max-width: 100%;
+	border-radius: 0.1rem;
+
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: rgb(233,219,219);
+}
+
+nav ul li a:visited {
+	text-decoration: none;
+	color: rgb(233,219,219);
+}
+
+nav ul li a:hover {
+	text-decoration: ;
+	color: rgb(173,122,122);
+}
+
+	
+
 footer {
 	text-align: center;
 	color:rgb(121,71,71) ;
