@@ -109,6 +109,30 @@ footer {
 		width: 25%;
 		background-color: rgb(129,86,77);
 		color: white;
+		font-size: 1rem;
+		max-width: 100%px;
+
+	}
+
+	nav ul {
+		display: flex;
+		align-items: stretch;
+		flex-direction: column;
+		justify-content: space-between;
+		margin: 0;
+		padding: 0;
+		border-radius: 0.5rem;
+	}
+	nav ul li {
+		flex-flow: row wrap;
+		list-style-type: none;
+		padding: 0.1rem;
+		text-align: center;
+		margin-top: 0.15rem;
+	}
+	nav ul li a {
+		text-decoration: none;
+		text-transform: uppercase;
 	}
 	body{
 		background-color: rgb(129,86,77);
