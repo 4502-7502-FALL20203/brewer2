@@ -26,6 +26,11 @@ p{
 	text-align: center;
 	
 }
+main{
+	max-width: 800px;
+	margin: auto;
+	font-size: 1.4rem;
+}
 body{
 	background-color: rgb(245,238,238);
 	
@@ -96,7 +101,37 @@ footer {
 		width: 50%;
 		
 	}
+
+gallery-image{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 }
+.button_holder{
+	display: flex;
+	flex-direction: row;
+}
+button_next {  }
+button_previous {  }
+
+button{
+	background-color: rgb(129, 86, 77,);
+	margin: 1rem;
+	padding: 1rem;
+	min-width: 10rem;
+	font-size: 1.2rem;
+	font-family: monospace;
+	border-radius: 0.5rem;
+}
+button-start{
+	background-color: whitesmoke;
+}
+gallery-image{
+	max-width: 80%;
+}
+
+
 @media (max-width: 800px) {
 	.image-holder{
 		width:250px;
@@ -172,9 +207,6 @@ footer {
   box-sizing: border-box;
 
 }
-
-
-
 
 
 
