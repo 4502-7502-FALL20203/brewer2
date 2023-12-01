@@ -1,4 +1,4 @@
-skip-link {
+.skip-link {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -8,7 +8,7 @@ skip-link {
   border: 0;
 }
 
-skip-link:focus{
+.skip-link:focus{
   width: unset;
   height: unset;
   position: relative;
